@@ -1,0 +1,521 @@
+
+
+/* ===================================================
+    MEDIA QUERIES
+===================================================  */
+
+/* -- < 1668 px */
+@media only screen and (min-width: 1668px) {
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* --section */
+    .section {
+        margin: 0;
+        max-width: 1000px;
+    }
+}
+
+
+
+/* --  > 1420 px  */
+@media only screen and (max-width: 1420px) {
+
+    /* --sections */
+    .section {
+        padding: 14rem 0 0;
+        margin: 0 15% 0;
+    }
+
+    /* --Navber !*/
+    .navbar ul {
+        gap: 3.4rem;
+        font-size: 1.6rem;
+    }
+}
+
+
+
+
+/* --  > 1200 px  */
+@media only screen and (max-width: 1200px) {
+
+    html {
+        font-size: 90%;
+    }
+
+    /* || REUSABLE || */
+    p {
+        font-size: 1.2rem;
+    }
+
+    .pre-title {
+        margin-bottom: 0.7rem;
+    }
+
+    .main-title {
+        font-size: 3.9rem;
+        margin-bottom: 0.8rem;
+    }
+
+    .title-border-dec span {
+        margin-bottom: 0.9rem;
+        width: 3.6rem;
+        height: 3px;
+    }
+
+    .title-border-dec span:last-child {
+        margin-left: 1.7rem;
+        margin-bottom: 0;
+    }
+
+    .title-border-dec {
+        margin-bottom: 1.2rem;
+    }
+
+
+
+    /* || HEADER || */
+    /* --Wrapper */
+    header .header-wrap {
+        /* font-size is working as parent for em padding */
+        font-size: 1.6rem;
+        padding: 1.4em 1.6em 1.4em 1.6em;
+    }
+
+    /* --Name */
+    .header-wrap .name {
+        font-size: 1.6rem;
+    }
+
+    /* --Menu */
+    .menu-toggle {
+        width: 36px;
+        height: 28px;
+        gap: 9px;
+    }
+
+    #menu-checkbox:checked+.menu-toggle #menu-bar1 {
+        transform: rotate(-45deg) translate(-5px, 2px);
+    }
+
+    #menu-checkbox:checked+.menu-toggle #menu-bar3 {
+        transform: rotate(-45deg) translate(-8px, -14px);
+    }
+
+    /* --Navber !*/
+    .navbar ul {
+        gap: 3.8rem;
+        font-size: 1.8rem;
+    }
+
+
+    /* || Home  */
+    /* --Home Left */
+    .left-side-home .hero-info {
+        font-size: 1.7rem;
+    }
+
+
+    /* || Portfolio */
+    .portfolio-section .projects-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem 1rem;
+    }
+
+
+    /* || Footer */
+    .footer-section {
+        padding-top: 6rem;
+        padding-bottom: 5%;
+        font-size: 1.2rem;
+    }
+}
+
+
+
+
+
+
+
+/* --  > 992 px  */
+@media only screen and (max-width: 992px) {
+
+    html {
+        font-size: 78%;
+    }
+
+
+    /* || HEADER || */
+    /* --Name */
+    .header-wrap .name {
+        font-size: 1.8rem;
+    }
+
+    /* --Menu */
+    .menu-toggle {
+        width: 34px;
+        height: 26px;
+        gap: 8px;
+    }
+
+    #menu-checkbox:checked+.menu-toggle #menu-bar1 {
+        transform: rotate(-45deg) translate(-4px, 1px);
+    }
+
+    #menu-checkbox:checked+.menu-toggle #menu-bar3 {
+        transform: rotate(-45deg) translate(-8px, -13px);
+    }
+
+    /* || Home  */
+    /* --Home Right */
+    .image-container img {
+        width: 70%;
+        height: auto;
+    }
+
+
+
+    /* || Portfolio */
+    .project-box {
+        padding: 1.9em 1.7em;
+    }
+
+    .project-top {
+        margin-bottom: 1.9rem;
+    }
+
+    .project-top .folder {
+        font-size: 1.9rem;
+    }
+
+    .project-top .links {
+        font-size: 1.1rem;
+    }
+
+    .project-title {
+        font-size: 1.5rem;
+        margin-bottom: 0.9rem;
+    }
+
+    .project-tech-list {
+        list-style-type: none;
+        font-size: 0.7rem;
+        margin-top: 1.4rem;
+    }
+}
+
+
+
+
+/* --  > 768 px  */
+@media only screen and (max-width: 768px) {
+
+    html {
+        font-size: 70%;
+    }
+
+    .section {
+        padding: 20rem 0 0;
+        margin: 0 10% 0;
+    }
+
+
+    /* || REUSABLE || */
+    .pre-title {
+        margin-bottom: 1rem;
+    }
+
+    .main-title {
+        font-size: 3.6rem;
+        margin-bottom: 0.7rem;
+    }
+
+    .title-border-dec span {
+        background-color: #ff4d5a;
+        margin-bottom: 0.7rem;
+        width: 3.2rem;
+        height: 2px;
+    }
+
+    .title-border-dec span:last-child {
+        margin-left: 1.6rem;
+        margin-bottom: 0;
+    }
+
+    .title-border-dec {
+        margin-bottom: 1rem;
+    }
+
+
+
+    /* || HEADER || */
+    /* --Name */
+    .header-wrap .name {
+        font-size: 1.7rem;
+    }
+
+    /* --Navber !*/
+    .navbar ul {
+        gap: 4.4rem;
+        font-size: 2rem;
+    }
+
+
+    /* || Home  */
+    /* --Home Left */
+    .left-side-home .hero-info {
+        font-size: 1.6rem;
+    }
+}
+
+
+
+
+
+/* --  > 576 px px  */
+@media only screen and (max-width: 576px) {
+
+    html {
+        font-size: 58%;
+    }
+
+
+    /* || REUSABLE || */
+    .main-title {
+        font-size: 3.4rem;
+    }
+
+
+    /* || HEADER || */
+    /* --Wrapper */
+    header .header-wrap {
+        /* font-size is working as parent for em padding */
+        font-size: 1.4rem;
+        padding: 1.7em 2em 1.7em 2em;
+    }
+
+    /* --Name */
+    .header-wrap .name {
+        font-size: 1.8rem;
+    }
+
+    /* --Menu */
+    .menu-toggle {
+        width: 26px;
+        height: 22px;
+        gap: 8px;
+    }
+
+    .menu-toggle .menu-bars {
+        height: 1px;
+    }
+
+    #menu-checkbox:checked+.menu-toggle #menu-bar1 {
+        transform: rotate(-45deg) translate(-4px, 2px);
+    }
+
+    #menu-checkbox:checked+.menu-toggle #menu-bar3 {
+        transform: rotate(-45deg) translate(-5px, -11px);
+    }
+
+    /* --Navber !*/
+    .navbar ul {
+        gap: 4.8rem;
+        font-size: 2.4rem;
+    }
+
+
+    /* || Home  */
+    /* --Home Left */
+    .left-side-home .hero-info {
+        font-size: 1.5rem;
+        letter-spacing: 1px;
+    }
+
+
+    /* || About Me */
+    .about-section .about-para {
+        letter-spacing: 1px;
+    }
+}
+
+
+
+
+
+/* --  > 420 px  */
+@media only screen and (max-width: 420px) {
+    html {
+        font-size: 48%;
+    }
+
+
+    /* || REUSABLE || */
+    .main-title {
+        font-size: 3.4rem;
+        margin-bottom: 0.7rem;
+    }
+
+    .title-border-dec span {
+        background-color: #ff4d5a;
+        width: 3.2rem;
+        height: 1px;
+    }
+
+
+    /* || HEADER || */
+    /* --Wrapper */
+    header .header-wrap {
+        /* font-size is working as parent for em padding */
+        font-size: 1.4rem;
+        padding: 1.7em 1.6em 1.7em 1.6em;
+    }
+
+    /* --Name */
+    .header-wrap .name {
+        font-size: 1.7rem;
+    }
+
+
+
+    /* || Portfolio */
+    .portfolio-section .projects-grid {
+        gap: 1.5rem 1rem;
+    }
+
+    .project-box {
+        padding: 1.6em 1.4em;
+    }
+
+    .project-top {
+        margin-bottom: 1.6rem;
+    }
+
+    .project-top .folder {
+        font-size: 1.8rem;
+    }
+
+    .project-top .links {
+        font-size: 1rem;
+    }
+
+    .project-title {
+        font-size: 1.3rem;
+        margin-bottom: 0.8rem;
+    }
+
+    .project-tech-list {
+        list-style-type: none;
+        font-size: 0.9rem;
+        margin-top: 1.2rem;
+    }
+}
+
+
+
+
+
+
+/* --  > 300 px  */
+@media only screen and (max-width: 300px) {
+
+    html {
+        font-size: 36%;
+    }
+
+
+    /* || REUSABLE || */
+    .main-title {
+        font-size: 3rem;
+    }
+
+    /* --Home Left */
+    .left-side-home .hero-info {
+        font-size: 1.3rem;
+    }
+}
+
+
+
+/* --  > 240 px  */
+@media only screen and (max-width: 240px) {
+    html {
+        font-size: 32%;
+    }
+
+
+    /* || HEADER || */
+    /* --Wrapper */
+    header .header-wrap {
+        /* font-size is working as parent, for em padding */
+        font-size: 1.4rem;
+        padding: 1.5em 1.6em 1.5em 1.6em;
+    }
+
+    /* --Name */
+    .header-wrap .name {
+        font-size: 2rem;
+    }
+
+    /* --Menu */
+    .menu-toggle {
+        width: 18px;
+        height: 16px;
+        gap: 6px;
+    }
+
+    #menu-checkbox:checked+.menu-toggle #menu-bar1 {
+        transform: rotate(-45deg) translate(-3px, 2px);
+    }
+
+    #menu-checkbox:checked+.menu-toggle #menu-bar3 {
+        transform: rotate(-45deg) translate(-3px, -8px);
+    }
+}
+
+
+
+@media only screen and (max-width: 200px) {
+    html {
+        font-size: 26%;
+    }
+
+
+    /* || REUSABLE || */
+    .main-title {
+        font-size: 2.6rem;
+    }
+
+
+    /* || HEADER || */
+    /* --Name */
+    .header-wrap .name {
+        font-size: 2.3rem;
+    }
+}
+
+
+/* --  > 170 px  */
+@media only screen and (max-width: 170px) {
+    html {
+        font-size: 20%
+    }
+
+    /* || HEADER || */
+    /* --Name */
+    .header-wrap .name {
+        font-size: 2.5rem;
+    }
+}
+
+
+@media only screen and (max-width: 150px) {
+    html {
+        font-size: 15%
+    }
+}

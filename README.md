@@ -1,1 +1,12 @@
-# v1.personal-portfolio
+# V1 Personal Portfolio
+
+This repository contains the source code for the first version 
+of my portfolio website.
+
+
+
+## Live Demo
+
+* https://mohdarham.netlify.app/
+
+

@@ -1,0 +1,79 @@
+
+
+
+
+/* || Display Elements */
+.hidden-left {
+    opacity: 0;
+    transform: translateX(-10vw);
+
+    transition: opacity 1.5s, transform 1.5s;
+}
+
+.hidden-right {
+    opacity: 0;
+    transform: translateX(10vw);
+
+    transition: opacity 1.5s, transform 1.5s;
+}
+
+.show {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+
+
+
+
+
+/* || Typing text */
+#typing-text {
+    font-family: monospace;
+    font-size: 1rem;
+    color: #55fff1;
+    border-right: 0.15rem solid #ff4d5a;
+    white-space: nowrap;
+    letter-spacing: 0.15rem;
+    margin: 2rem auto 0;
+}
+
+
+
+
+/* || Shaking input */
+.info-contact-form {
+    position: relative;
+}
+
+form label {
+    pointer-events: none;
+    transition: transform 300ms ease-in-out;
+}
+
+.shake-animation {
+    animation: shake 500ms ease-in-out;
+    border-color: #ff4d5a;
+}
+
+@keyframes shake {
+
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+
+    20% {
+        transform: translateX(-0.8rem);
+    }
+    40%{
+        transform: translateX(0.8rem);
+    }
+    60% {
+        transform: translateX(-0.8rem);
+    }
+    80% {
+        transform: translateX(0.8rem);
+    }
+
+}

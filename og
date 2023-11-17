@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Font Family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+
+
+
+    <style>
+        * {
+            font-family: 'Ubuntu', sans-serif;
+            letter-spacing: 1px;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: rgb(12, 69, 92);
+            color: white;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 72rem;
+            height: 38rem;
+            
+            /* background: linear-gradient(130deg, #1b2735 0%, #090a0f 100%); */
+            background: radial-gradient(ellipse at left, #1f2e3f 0%, #090a0f 100%);
+        }
+
+        h1 {
+            font-size: 5.8rem;
+            font-weight: 400;
+            margin-bottom: 14px;
+            margin-top: 4rem;
+            letter-spacing: 1px;
+        }
+        
+        .child-box {
+            font-size: 2.6rem;
+            font-weight: 300;
+            padding: 1rem 2rem;
+            border-radius: 30px;
+            color: #57fff1;
+            background-color: hsla(196, 29%, 55%, 0.15);
+            margin-bottom: 4rem;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>Mohd Arham</h1>
+        <div class="child-box">Front End Engineer</div>
+    </div>
+
+</body>
+
+</html>
