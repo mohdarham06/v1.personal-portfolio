@@ -1,5 +1,3 @@
-
-
 /* ===================================================
     MEDIA QUERIES
 ===================================================  */
@@ -123,7 +121,6 @@
 
     /* || Portfolio */
     .portfolio-section .projects-grid {
-        grid-template-columns: repeat(2, 1fr);
         gap: 1.5rem 1rem;
     }
 
@@ -194,7 +191,7 @@
     }
 
     .project-top .links {
-        font-size: 1.1rem;
+        font-size: 1.2rem;
     }
 
     .project-title {
@@ -204,7 +201,7 @@
 
     .project-tech-list {
         list-style-type: none;
-        font-size: 0.7rem;
+        font-size: 0.9rem;
         margin-top: 1.4rem;
     }
 }
@@ -342,6 +339,12 @@
     .about-section .about-para {
         letter-spacing: 1px;
     }
+
+
+    /* || Portfolio */
+    .portfolio-section .projects-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 
@@ -350,9 +353,6 @@
 
 /* --  > 420 px  */
 @media only screen and (max-width: 420px) {
-    html {
-        font-size: 48%;
-    }
 
 
     /* || REUSABLE || */
@@ -401,7 +401,7 @@
     }
 
     .project-top .links {
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
 
     .project-title {
@@ -424,10 +424,6 @@
 /* --  > 300 px  */
 @media only screen and (max-width: 300px) {
 
-    html {
-        font-size: 36%;
-    }
-
 
     /* || REUSABLE || */
     .main-title {
@@ -440,82 +436,3 @@
     }
 }
 
-
-
-/* --  > 240 px  */
-@media only screen and (max-width: 240px) {
-    html {
-        font-size: 32%;
-    }
-
-
-    /* || HEADER || */
-    /* --Wrapper */
-    header .header-wrap {
-        /* font-size is working as parent, for em padding */
-        font-size: 1.4rem;
-        padding: 1.5em 1.6em 1.5em 1.6em;
-    }
-
-    /* --Name */
-    .header-wrap .name {
-        font-size: 2rem;
-    }
-
-    /* --Menu */
-    .menu-toggle {
-        width: 18px;
-        height: 16px;
-        gap: 6px;
-    }
-
-    #menu-checkbox:checked+.menu-toggle #menu-bar1 {
-        transform: rotate(-45deg) translate(-3px, 2px);
-    }
-
-    #menu-checkbox:checked+.menu-toggle #menu-bar3 {
-        transform: rotate(-45deg) translate(-3px, -8px);
-    }
-}
-
-
-
-@media only screen and (max-width: 200px) {
-    html {
-        font-size: 26%;
-    }
-
-
-    /* || REUSABLE || */
-    .main-title {
-        font-size: 2.6rem;
-    }
-
-
-    /* || HEADER || */
-    /* --Name */
-    .header-wrap .name {
-        font-size: 2.3rem;
-    }
-}
-
-
-/* --  > 170 px  */
-@media only screen and (max-width: 170px) {
-    html {
-        font-size: 20%
-    }
-
-    /* || HEADER || */
-    /* --Name */
-    .header-wrap .name {
-        font-size: 2.5rem;
-    }
-}
-
-
-@media only screen and (max-width: 150px) {
-    html {
-        font-size: 15%
-    }
-}

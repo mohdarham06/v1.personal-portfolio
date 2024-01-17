@@ -450,7 +450,7 @@ body main {
 }
 
 .portfolio-section .projects-grid {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     list-style-type: none;
     gap: 1.7rem 1.2rem;
 }
@@ -474,7 +474,10 @@ body main {
 
 }
 
-
+.project-content {
+    position: relative;
+    height: 100%;
+}
 
 .project-top {
     display: flex;
@@ -490,7 +493,10 @@ body main {
 }
 
 .project-top .links {
-    font-size: 1.2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    font-size: 1.3rem;
 }
 
 .project-top .links a {
@@ -517,16 +523,20 @@ body main {
 }
 
 
+.project-description {
+    margin-bottom: 2rem;
+}
+
 .project-description p {
     color: #d5dde6;
     font-size: 1rem;
 }
 
 .project-tech-list {
+    position: absolute;
     list-style-type: none;
     color: #9fa6ad;
-    font-size: 0.8rem;
-    margin-top: 1.5rem;
+    bottom: 0;
 }
 
 
