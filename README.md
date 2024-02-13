@@ -5,8 +5,4 @@ of my portfolio website.
 
 
 
-## Live Demo
-
-* https://mohdarham.netlify.app/
-
 
